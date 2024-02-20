@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Rebuild Task</string>
+    <string name="no_task_available">No Task Available</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="enter_priority">Enter Priority</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="submit">Submit</string>
+    <string name="task">Task</string>
+    <string name="description">Description</string>
+    <string name="priority">priority</string>
+    <string name="add_task">Add Task</string>
+    <string-array name="dropdown_values">
+        <item>CRITICAL</item>
+        <item>HIGH</item>
+        <item>LOW</item>
+    </string-array>
+
+</resources>

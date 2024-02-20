@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/allTask">
+
+    <fragment
+        android:id="@+id/allTask"
+        android:name="com.my.rebuildtask.view.AllTask"
+        android:label="AllTask" >
+        <action
+            android:id="@+id/action_allTask_to_addTask"
+            app:destination="@id/addTask" />
+    </fragment>
+    <fragment
+        android:id="@+id/addTask"
+        android:name="com.my.rebuildtask.view.AddTask"
+        android:label="AddTask" >
+        <argument
+            android:name="taskModel"
+            app:argType="com.my.rebuildtask.model.Task"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+</navigation>
